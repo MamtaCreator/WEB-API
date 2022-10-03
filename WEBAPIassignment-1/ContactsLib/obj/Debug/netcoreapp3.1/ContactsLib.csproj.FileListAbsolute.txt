@@ -1,0 +1,10 @@
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\bin\Debug\netcoreapp3.1\ContactsLib.deps.json
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\bin\Debug\netcoreapp3.1\ContactsLib.dll
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\bin\Debug\netcoreapp3.1\ContactsLib.pdb
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.AssemblyInfoInputs.cache
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.AssemblyInfo.cs
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.csproj.CoreCompileInputs.cache
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.dll
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.pdb
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsLib\obj\Debug\netcoreapp3.1\ContactsLib.csproj.AssemblyReference.cache

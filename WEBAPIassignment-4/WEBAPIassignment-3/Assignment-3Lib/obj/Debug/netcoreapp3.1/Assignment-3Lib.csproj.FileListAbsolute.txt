@@ -1,0 +1,13 @@
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\bin\Debug\netcoreapp3.1\Assignment-3Lib.deps.json
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\bin\Debug\netcoreapp3.1\Assignment-3Lib.runtimeconfig.json
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\bin\Debug\netcoreapp3.1\Assignment-3Lib.runtimeconfig.dev.json
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\bin\Debug\netcoreapp3.1\Assignment-3Lib.dll
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\bin\Debug\netcoreapp3.1\Assignment-3Lib.pdb
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.AssemblyInfoInputs.cache
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.AssemblyInfo.cs
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.csproj.CoreCompileInputs.cache
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.dll
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.pdb
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.genruntimeconfig.cache
+C:\Users\MamtaY\source\repos\WEBAPIassignment-3\Assignment-3Lib\obj\Debug\netcoreapp3.1\Assignment-3Lib.csproj.AssemblyReference.cache

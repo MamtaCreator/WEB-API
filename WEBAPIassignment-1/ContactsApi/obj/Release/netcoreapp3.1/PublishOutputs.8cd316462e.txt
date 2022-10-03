@@ -1,0 +1,9 @@
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsApi.exe
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsApi.dll
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsApi.deps.json
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsApi.runtimeconfig.json
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsApi.pdb
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsLib.dll
+C:\Users\MamtaY\source\repos\ContactsLib\ContactsApi\obj\Release\netcoreapp3.1\PubTmp\Out\ContactsLib.pdb

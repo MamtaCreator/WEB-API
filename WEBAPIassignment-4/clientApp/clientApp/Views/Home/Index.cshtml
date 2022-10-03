@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="~/js/jquery.js"></script>
+<div class="text-center">
+
+
+
+
+
+ 
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+           
+        </div>
+        <div class="panel-heading">
+            <input id="btn-all" type="button" value="GetAllContacts" />
+            <input type="text" id="txtcity" name="txtcity" />
+            <input id="btn-city" type="button" value="GetContactsByCity" />
+
+        </div>
+        <hr />
+        <div class="panel-body">
+            <table class="table table-bordered" id="Table">
+                <tr>
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>City</td>
+                    <td>Contact</td>
+                </tr>
+                <tbody id="Contacts"></tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+    
+</div>
+
+<script type="text/javascript">
+    //$(document).ready(function () {
+    //    manager.getAllContacts();
+
+    //})
+    //var manager = {
+
+    //    getAllContacts: function () {
+    //        var object = "";
+    //        var serviceUrl = "https://localhost:44377/api/Contact";
+    //        window.manager.GetAPI(serviceUrl, onSuccess, onFailed);
+    //        function onSuccess(jsonData) {
+    //            debugger;
+    //            object = jsonData;
+    //            $.each(jsonData, function (i, item) {
+    //                var rows = "<tr>" +
+    //                    "<td id='Id'>" + item.contactId + "</td>" +
+    //                    "<td id='Id'>" + item.contactName + "</td>" +
+    //                    "<td id='Id'>" + item.city + "</td>" +
+    //                    "<td id='Id'>" + item.cellNo + "</td>" +
+    //                    $("#Table").append(rows);
+    //            });
+    //        }
+    //        function onFailed(error) {
+    //            window.alert(error.statusText);
+    //        }
+    //        return object;
+    //    },
+    //    GetAPI: function (serviceUrl, successCallBack, errorCallBack) {
+    //        $.ajax({
+    //            type: "GET",
+    //            url: serviceUrl,
+    //            dataType: "json",
+    //            success: successCallBack,
+    //            error: errorCallBack
+    //        });
+
+    //    },
+    //}
+
+    $(document).ready(function () {
+        var Contacts = $('#Contacts');
+
+        $('#btn-all').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: "https://localhost:44377/api/Contact",
+                dataType: 'json',
+                success: function (data) {
+                    Contacts.empty();
+
+                    $.each(data, function (index, val) {
+
+                        Contacts.append("<tr><td>" + val.contactId + "</td><td>" + val.contactName + "</td><td>" + val.city + "</td><td>" + val.cellNo + "</td></tr>")
+                    });
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            var Contacts = $('#Contacts');
+
+            $('#btn-city').click(function () {
+                var city = $('#txtcity').val();
+                var getUrl = "https://localhost:44377/api/Contact/" + city;
+                console.log(getUrl);
+                $.ajax({
+                    type: 'GET',
+                    url: getUrl,
+                    dataType: 'json',
+                    success: function (data) {
+                        Contacts.empty();
+
+                        $.each(data, function (index, val) {
+
+                            Contacts.append("<tr><td>" + val.contactId + "</td><td>" + val.contactName + "</td><td>" + val.city + "</td><td>" + val.cellNo + "</td></tr>")
+                        });
+                    }
+                });
+            });
+        });
+
+        //$('#btnClear').click(function () {
+        //    ulContacts.empty();
+        //});
+    });
+
+</script>
